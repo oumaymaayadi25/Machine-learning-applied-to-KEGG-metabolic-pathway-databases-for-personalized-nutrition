@@ -30,7 +30,7 @@ The workflow included:
 
 The Decision Tree model achieved an accuracy of approximately **72.34%** on the test set.
 
-This result demonstrates the potential of machine learning for extracting patterns from metabolic pathway data, while also highlighting the importance of data quality and further model improvement.
+The results show that machine learning can be explored for identifying patterns in metabolic pathway data. The model performance also highlights the importance of data quality and further model evaluation and improvement.
 
 ## Technologies
 
