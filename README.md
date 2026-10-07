@@ -1,0 +1,2 @@
+# Machine-learning-applied-to-KEGG-metabolic-pathway-databases-for-personalized-nutrition
+Every individual is different, and our bodies can respond differently to the same nutrients and diets. **Personalized nutrition** aims to account for these differences by tailoring dietary recommendations to individual characteristics. This project explores how machine learning and KEGG metabolic pathway data can support this approach.
