@@ -43,4 +43,4 @@ This result demonstrates the potential of machine learning for extracting patter
 
 ## Notebook
 
-[Open the Google Colab notebook](YOUR_COLAB_LINK)
+[[Open the Google Colab notebook](YOUR_COLAB_LINK)](https://colab.research.google.com/drive/1260hAWu1-Kz3WtBdg4d8AdBz6yXXLl9M#scrollTo=Ro_OvC_rtTUF)
