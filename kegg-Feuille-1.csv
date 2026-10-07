@@ -1,0 +1,232 @@
+Pathway,Enzyme,Substrate_1,Substrate_2,Product_1,Product_2,Nutrition
+Glycolysis / Gluconeogenesis,hexokinase,D-glucose,ATP,D-glucose 6-phosphate,ADP,low-carb
+Glycolysis / Gluconeogenesis,phosphoglucose isomerase,D-glucose 6-phosphate,None,D-fructose 6-phosphate,None,low-carb
+Glycolysis / Gluconeogenesis,aldolase,D-fructose 6-phosphate,None,D-glyceraldehyde 3-phosphate + dihydroxyacetone phosphate,None,low-carb
+Glycolysis / Gluconeogenesis,triosephosphate isomerase,D-glyceraldehyde 3-phosphate,None,Dihydroxyacetone phosphate,None,low-carb
+Glycolysis / Gluconeogenesis,glyceraldehyde 3-phosphate dehydrogenase,D-glyceraldehyde 3-phosphate,NAD+,"1,3-diphospho-D-glycerate",NADH + H+,low-carb
+Glycolysis / Gluconeogenesis,phosphoglycerate kinase,"1,3-diphospho-D-glycerate",ADP,3-phospho-D-glycerate,ATP,low-carb
+Glycolysis / Gluconeogenesis,phosphoglycerate mutase,3-phospho-D-glycerate,None,2-phospho-D-glycerate,None,low-carb
+Glycolysis / Gluconeogenesis,enolase,2-phospho-D-glycerate,None,Phosphoenolpyruvate + H2O,None,low-carb
+Glycolysis / Gluconeogenesis,pyruvate kinase,Phosphoenolpyruvate,ADP,pyruvate,ATP,low-carb
+Tyrosine metabolism,phenylalanine hydroxylase,L-phenylalanine,Tetrahydrobiopterin + O2,L-tyrosine + H2O + dihydrobiopterin,None,high-protein
+Tyrosine metabolism,tyrosine aminotransferase,L-tyrosine,alpha-Ketoglutarate,4-hydroxyphenylpyruvate,L-glutamate,high-protein
+Tyrosine metabolism,4-hydroxyphenylpyruvate dioxygenase,4-hydroxyphenylpyruvate,None,2-oxo-3-(4-hydroxyphenyl)propanoate + CO2,None,high-protein
+Tyrosine metabolism,"homogentisate 1,2-dioxygenase",2-oxo-3-(4-hydroxyphenyl)propanoate,O2,maleylacetoacetate,None,high-protein
+Tyrosine metabolism,maleylacetoacetate isomerase,maleylacetoacetate,None,fumarylacetoacet,None,high-protein
+Fructose and mannose metabolism,mannose phosphate isomerase,mannose-6-phosphate (M6P),None,fructose-6-phosphate (F6P),none,lean proteins
+Fructose and mannose metabolism,Phosphomannomutase 2 (PMM2),mannose-6-phosphate (M6P),None,mannose-1-phosphate (M1P),None,lean proteins
+Fructose and mannose metabolism,Phosphofructokinase (PFK),Fructose-6-phosphate,ATP,"Fructose-1,6-bisphosphate",ADP,lean proteins
+Fructose and mannose metabolism,"6-phosphofructo-2-kinase/fructose-2,6-bisphosphatase 1",Fructose-6-phosphate,None,"Fructose-2,6-bisphosphate",None,lean proteins
+Fructose and mannose metabolism,"6-phosphofructo-2-kinase/fructose-2,6-bisphosphatase 1","Fructose-2,6-bisphosphate",None,Fructose-6-phosphate,None,lean proteins
+Fructose and mannose metabolism,phosphofructokinase (PFK),fructose-6-phosphate (F6P),ATP,"fructose-1,6-bisphosphate (F1,6BP)",ADP,lean proteins
+Fructose and mannose metabolism,Hexokinase 2 (HK2),Glucose,ATP,Glucose-6-phosphate,ADP,lean proteins
+Cysteine and methionine metabolism,Cystathionine gamma-lyase (CGL),L-cystathionine,H2O,L-cysteine,2-ketobutyrate,high-protein
+Cysteine and methionine metabolism,kynurenine aminotransferase 3 (KAT3),L-kynurenine,2-oxoglutarate,3-(2-aminobenzoyl)alanine,L-glutamate,high-protein
+Cysteine and methionine metabolism,cystathionine beta-synthase,serine,L-homocysteine,cystathionine,H2O,high-protein
+Cysteine and methionine metabolism,Methionine adenosyltransferase 1A (MAT1A),L-methionine,ATP,S-adenosylmethionine (SAMe),none,high-protein
+Cysteine and methionine metabolism,malate dehydrogenase 1,malate,NAD+,oxaloacetate,NADH + H+,high-protein
+Cysteine and methionine metabolism,tyrosine aminotransferase,Tyrosine,α-ketoglutarate,p-hydroxyphenylpyruvate,glutamate,high-protein
+Cysteine and methionine metabolism,glycine N-methyltransferase,SAM,Glycine,SAH,sarcosine,high-protein
+Ether lipid metabolism,phospholipid phosphatase 1,"1,2-diacyl-sn-glycero-3-phosphate",None,"1,2-diacyl-sn-glycerol",phosphate,high-protein
+Ether lipid metabolism,phospholipid phosphatase 2,"1,2-diacylglycerol 3-phosphate",H2O,"1,2-diacyl-sn-glycerol",phosphate,low-carb
+Ether lipid metabolism,phospholipid phosphatase 3,"1,2-diacylglycerol 3-phosphate",H2O,"1,2-diacyl-sn-glycerol",phosphate,low-carb
+Ether lipid metabolism,lysophosphatidylcholine acyltransferase 4,acyl-CoA,1-acyl-sn-glycero-3-phosphocholine,CoA,"1,2-diacyl-sn-glycero-3-phosphocholine","lean proteins,low-carb"
+Ether lipid metabolism,glycerophosphodiester phosphodiesterase domain containing 3,1-alkyl-sn-glycero-3-phosphoethanolamine,H2O,1-alkyl-sn-glycerol 3-phosphate,ethanolamine,"lean proteins,low-carb,low-fat"
+Ether lipid metabolism,phospholipase D1,phosphatidylcholine,H2O,choline,phosphatidate,"lean proteins,low-carb,low-fat"
+Ether lipid metabolism,galactose-3-O-sulfotransferase 1,3'-phosphoadenylyl sulfate,galactosylceramide,"adenosine 3',5'-bisphosphate",galactosylceramide sulfate,"low-carb,lean proteins"
+Ether lipid metabolism,ectonucleotide pyrophosphatase/phosphodiesterase 2,1-alkyl-sn-glycero-3-phosphoethanolamine,H2O,1-alkyl-sn-glycerol 3-phosphate,ethanolamine,"lean proteins,low-carb,low-fat"
+Ether lipid metabolism,phospholipase A2 group X,phosphatidylcholine,H2O,1-acylglycerophosphocholine,carboxylate,"lean proteins,low-carb,low-fat"
+Galactose metabolism,galactose mutarotase,alpha-D-glucose,none,beta-D-glucose,none,"low-galactose diet,lean proteins"
+Galactose metabolism,galactokinase 1,ATP,alpha-D-galactose,ADP,alpha-D-galactose 1-phosphate,"low-galactose diet,lean proteins,low-carb"
+Galactose metabolism,UDP-galactose-4-epimerase,UDP-alpha-D-glucose,none,UDP-alpha-D-galactose,none,"low-galactose diet,lean proteins,low-carb"
+Galactose metabolism,phosphoglucomutase 1,alpha-D-glucose 1-phosphate,none,D-glucose 6-phosphate,none,"complex carbohydrate diet,high-protein"
+Galactose metabolism,hexokinase 3,ATP,D-hexose,ADP,D-hexose 6-phosphate,"complex carbohydrate diet,high-protein"
+Galactose metabolism,lactase,lactose,H2O,beta-D-galactose,D-glucose,lactose-free diet
+Galactose metabolism,phosphofructokinase,ATP,beta-D-fructofuranose 6-phosphate,ADP,"beta-D-fructofuranose 1,6-bisphosphate","complex carbohydrate diet,low-carb"
+Galactose metabolism,glucose-6-phosphatase catalytic subunit 1,D-glucose 6-phosphate,H2O,D-glucose,phosphate,"complex carbohydrate diet,lean proteins,healthy fats"
+Galactose metabolism,lactalbumin alpha,UDP-alpha-D-galactose,D-glucose,UDP,lactose,"high-protein,free-lactose diet"
+Vitamin B6 metabolism,pyridoxamine 5'-phosphate oxidase,pyridoxamine 5'-phosphate+H2O,O2+pyridoxine 5'-phosphate,pyridoxal 5'-phosphate,NH3+H2O2,"vitamin B6 diet,lean proteins"
+Vitamin B6 metabolism,pyridoxal kinase,ATP,pyridoxal,ADP,pyridoxal 5'-phosphate,"vitamin B6 diet,high-protein"
+Vitamin B6 metabolism,pyridoxal phosphatase,pyridoxal 5'-phosphate,H2O,pyridoxal,phosphate,"vitamin B6 diet,high-protein"
+Vitamin B6 metabolism,aldehyde oxidase 1,aldehyde,H2O+O2,carboxylate,H2O2,"high-Antioxidants diet,water"
+Biosynthesis of unsaturated fatty acids,ELOVL fatty acid elongase 1,very-long-chain acyl-CoA,malonyl-CoA,very-long-chain 3-oxoacyl-CoA,CO2+CoA,long chain omega-3 fatty acids diet
+Biosynthesis of unsaturated fatty acids,hydroxysteroid 17-beta dehydrogenase 12,17beta-estradiol,NAD++NADP+,estrone+NADH,NADPH+H+,"lean proteins,Dietary fibers,healthy fats"
+Biosynthesis of unsaturated fatty acids,3-hydroxyacyl-CoA dehydratase 2,very-long-chain (3R)-3-hydroxyacyl-CoA,none,"very-long-chain trans-2,3-dehydroacyl-CoA",H2O,"shorter chain fatty acids,dietary fiber"
+Biosynthesis of unsaturated fatty acids,"trans-2,3-enoyl-CoA reductase",very-long-chain acyl-CoA,NADP+,"very-long-chain trans-2,3-dehydroacyl-CoA",NADPH+H+,"alternative sources of energy,free-short and medium chain fatty acids diet"
+Biosynthesis of unsaturated fatty acids,fatty acid desaturase 2,linoleoyl-CoA+ferrocytochrome b5,alpha-linolenoyl-CoA+O2+H+,gamma-linolenoyl-CoA+ferricytochrome b5,stearidonoyl-CoA+H2O,"unsaturated omega-3 fatty acids,high-protein,complex carbohydrates,dietary fiber"
+Biosynthesis of unsaturated fatty acids,acyl-CoA oxidase 3,acyl-CoA,O2,"trans-2,3-dehydroacyl-CoA",H2O2,"shorter chain fatty acids,dietary fiber,high-protein,complex carbohydrates"
+Biosynthesis of unsaturated fatty acids,acetyl-CoA acyltransferase 1,acyl-CoA+acetyl-CoA,[acetyl-CoA C-acyltransferase]-S-acyl-L-cysteine+[acetyl-CoA C-acyltransferase]-L-cysteine,CoA+3-oxoacyl-CoA,[acetyl-CoA C-acyltransferase]-L-cysteine+[acetyl-CoA C-acyltransferase]-S-acyl-L-cysteine,"alternative sources of energy,free-saturated fats diet,high-protein,complex carbohydrates,dietary fiber"
+Biosynthesis of unsaturated fatty acids,acyl-CoA thioesterase 4,palmitoyl-CoA,H2O,CoA,palmitate,"free-saturated fats and trans fats diet,high-protein,complex carbohydrates,dietary fiber"
+Biosynthesis of unsaturated fatty acids,bile acid-CoA:amino acid N-acyltransferase,choloyl-CoA,glycine,CoA,glycocholate,"dietary fiber,lean proteins,vitamins,minerals,complex carbohydrates"
+Biosynthesis of unsaturated fatty acids,stearoyl-CoA desaturase,stearoyl-CoA+ferrocytochrome b5,O2+H+,oleoyl-CoA,ferricytochrome b5+H2O,"unsaturated fatty acids,free-saturated fats,high-protein,complex carbohydrates,dietary fiber"
+Biosynthesis of unsaturated fatty acids,ELOVL fatty acid elongase 7,very-long-chain acyl-CoA,malonyl-CoA,very-long-chain 3-oxoacyl-CoA,CO2+CoA,long chain omega-3 fatty acids diet
+caffeine metabolism,N-acetyltransferase 2,acetyl-CoA,arylamine,CoA,N-acetylarylamine,"vitamin C,vitamin E,antioxidants,healthy fats"
+caffeine metabolism,xanthine dehydrogenase,xanthine,H2O+NAD+,urate,NADH+H+,"free-purine diet,water,low-fructose"
+caffeine metabolism,cytochrome P450 family 1 subfamily A member 2,RH,O2,ROH,H2O,"avoid drug interactions,low-caffeine,healthy fats"
+"Glycine, serine and threonine metabolism",serine hydroxymethyltransferase 2,Serine,Tetrahydrofolate (THF),Glycine,"5,10-Methylenetetrahydrofolate",glycine-rich foods
+"Glycine, serine and threonine metabolism",serine hydroxymethyltransferase 1,Serine,Tetrahydrofolate (THF),Glycine,"5,10-Methylenetetrahydrofolate",glycine-rich foods
+"Glycine, serine and threonine metabolism",alanine--glyoxylate aminotransferase,Alanine,Glyoxylate,Pyruvate,Glycine,"low-oxalate diet,"
+"Glycine, serine and threonine metabolism",glyoxylate and hydroxypyruvate reductase,Glyoxylate,NADH,Glycolate,NAD+,glyoxylate-rich foods
+"Glycine, serine and threonine metabolism",glycerate kinase,ATP,Glycerate,ADP,3-Phosphoglycerate,high-glycerate
+"Glycine, serine and threonine metabolism",phosphoglycerate mutase 1,3-Phosphoglycerate,None,2-Phosphoglycerate,None,well-balanced diet that supports overall energy
+"Glycine, serine and threonine metabolism",phosphoglycerate mutase 2,2-Phosphoglycerate,None,Phosphoenolpyruvate,None,well-balanced diet that supports overall energy
+"Glycine, serine and threonine metabolism",bisphosphoglycerate mutase,"2,3-Bisphosphoglycerate",None,3-Phosphoglycerate,None,well-balanced diet that supports overall energy
+"Glycine, serine and threonine metabolism",phosphoglycerate dehydrogenase,3-Phosphoglycerate,NAD+,3-Phosphohydroxypyruvate,NADH,well-balanced diet that supports overall energy
+"Glycine, serine and threonine metabolism",phosphoserine phosphatase,Phosphoserine,H2O,Serine,Pi (inorganic phosphate),High serine
+"Valine, leucine and isoleucine degradation",branched-chain amino acid transaminase 1 (BCAT1),Branched-chain amino acid (BCAA),α-ketoglutarate,Branched-chain α-keto acid,Glutamate,High branched-chain amino acids
+"Valine, leucine and isoleucine degradation",interleukin 4 induced 1,L-phenylalanine,H2O,L-tyrosine,H2O2,healthy and balanced diet
+"Valine, leucine and isoleucine degradation",dihydrolipoamide dehydrogenase,Dihydrolipoamide,NAD+,Lipoamide,NADH,low-protein diet
+"Valine, leucine and isoleucine degradation",acetyl-CoA acetyltransferase 1,Acetyl-CoA,Acetyl-CoA,CoA,Acetoacetyl-CoA,Low-fat diet
+"Valine, leucine and isoleucine degradation",3-hydroxy-3-methylglutaryl-CoA lyase,3-Hydroxy,3-methylglutaryl-CoA,Acetoacetate,Acetyl-CoA,Low-fat diet
+"Valine, leucine and isoleucine degradation",methylcrotonyl-CoA carboxylase subunit 1,Methylcrotonyl-CoA,ATP,Methylglutaconyl-CoA,ADP,Leucine metabolism
+"Valine, leucine and isoleucine degradation",alanine--glyoxylate aminotransferase 2,Alanine,Glyoxylate,Glycine,Glyoxylate imine,Low-oxalate diet
+"Valine, leucine and isoleucine degradation",hydroxyacyl-CoA dehydrogenase,Hydroxyacyl-CoA,NAD+,Ketoacyl-CoA,NADH + H+,Low-fat diet
+"Valine, leucine and isoleucine degradation",branched chain keto acid dehydrogenase E1 subunit alpha,Branched chain keto acid,Thiamine pyrophosphate (TPP,Branched chain α-keto acid,Hydroxyethyl-TPP,Branched chain amino acids (BCAAs) supplementation.
+"Valine, leucine and isoleucine degradation",hydroxyacyl-CoA dehydrogenase,Hydroxyacyl-CoA,FAD,Ketoacyl-CoA,FADH2,Low-fat diet
+"Valine, leucine and isoleucine biosynthesis",serine dehydratase,L-Serine,None,Pyruvate,Ammonia,Serine supplementation
+"Valine, leucine and isoleucine biosynthesis",serine dehydratase like,L-Serine,None,Pyruvate,Ammonia,Amino acid supplementation
+"Valine, leucine and isoleucine biosynthesis",branched chain amino acid transaminase 2,Branched chain amino acid,α-ketoglutarate,Branched chain α-keto acid,Glutamate,(BCAAs) supplementation
+"Valine, leucine and isoleucine biosynthesis",branched chain amino acid transaminase 1,Branched chain amino acid,α-ketoglutarate,Branched chain α-keto acid,Glutamate,(BCAAs) supplementation
+Arginine and proline metabolism,"Proline biosynthesis, glutamate",Glutamate,ATP + NADPH + H+,Proline,ADP + Pi + NADP+,Proline supplementation
+Arginine and proline metabolism,Creatine pathway,Glycine,Arginine,Guanidinoacetate,Ornithine,Creatine supplementation
+Arginine and proline metabolism,Creatine pathway,Guanidinoacetate,S-Adenosylmethionine (SAM),Creatine,S-Adenosylhomocysteine (SAH),Creatine supplementation
+Arginine and proline metabolism,"Polyamine biosynthesis, arginine",Arginine,ATP,Ornithine,Phosphorylated intermediate,Arginine supplementation.
+Arginine and proline metabolism,"Polyamine biosynthesis, arginine => ornithine => putrescine",Arginine,Ornithine,Putrescine,None,Putrescine supplementation
+Arginine and proline metabolism,"GABA biosynthesis, eukaryotes, putrescine",Putrescine,α-ketoglutarate,GABA,Succinate,GABA supplementation
+Arginine and proline metabolism,"Proline degradation, proline => glutamate",Proline,NAD+ + H2O,Pyrroline-5-carboxylate,NADH + H+,Proline-rich diet
+Arginine and proline metabolism,pyrroline-5-carboxylate,Proline,None,Pyrroline-5-carboxylate,None,Proline supplementation
+Phenylalanine metabolism,phenylalanine hydroxylase,L-Phenylalanine,Tetrahydrobiopterin,L-Tyrosine,Dihydrobiopterin,low-phenylalanine
+Phenylalanine metabolism,DOPA decarboxylase,L-DOPA,None,Dopamine,CO2,L-DOPA supplementation.
+Phenylalanine metabolism,amine oxidase copper-containing 3,Amine,O2 + H2O,Aldehyde,NH3 + H2O2,low-amine
+Phenylalanine metabolism,amine oxidase copper-containing 2,Amine,O2 + H2O,Aldehyde,NH3 + H2O2,Balanced diet
+Phenylalanine metabolism,monoamine oxidase B (MAO-B),Monoamine,O2,Aldehyde,Amine + H2O2,Balanced diet
+Phenylalanine metabolism,glutamic-oxaloacetic transaminase 1 (GOT1),Aspartate,α-ketoglutarate,Oxaloacetate,Glutamate,Balanced diet
+Phenylalanine metabolism,macrophage migration inhibitory factor,MIF,tautomerase activity,D-dopachrome methyl ester,H+,Balanced diet
+Phenylalanine metabolism,tyrosine aminotransferase,L-Tyrosine,α-Ketoglutarate,4-Hydroxyphenylpyruvate,L-Glutamate,L-tyrosine supplementation
+Starch and sucrose metabolism,maltase-glucoamylase,Maltose,H2O,Glucose,Glucose,low-carbohydrate diet
+Starch and sucrose metabolism,alpha glucosidase,Alpha-D-glucoside,H20,D-Glucose,Alcohol,low-carbs
+Starch and sucrose metabolism,sucrase-isomaltase,Sucrose,H2O,Glucose,Fructose,low-sucrose
+Starch and sucrose metabolism,UDP-glucose pyrophosphorylase 2,UTP,D-glucose-1-phosphate,UDP-glucose,PPi,Balanced diet
+Starch and sucrose metabolism,glucosylceramidase beta 3,Glucosylceramide,H2O,Ceramide,Glucose,Balanced diet
+Starch and sucrose metabolism,glycogen synthase 2,UDP-glucose,"(1,4-alpha-D-glucosyl)n",UDP,"(1,4-alpha-D-glucosyl)n+1",low-sugar diet
+Starch and sucrose metabolism,glucose-6-phosphate isomerase,D-Glucose,6-phosphate,D-Fructose,6-phosphate,Balanced diet
+Starch and sucrose metabolism,hexokinase 2,D-Glucose,ATP,ADP,D-Glucose-6-phosphate,Low-carbs
+Starch and sucrose metabolism,phosphoglucomutase 2,Alpha-D-glucose-1-phosphate,None,Alpha-D-glucose-6-phosphate,None,Balanced diet
+Fatty Acid Biosynthesis,Fatty acid synthase,Acetyl-CoA,Malonyl-CoA,Palmitic acid,CoA,high-fat
+Fatty Acid Synthesis,Acetyl-CoA carboxylase,Acetyl-CoA,ATP,Malonyl-CoA,ADP + Pi,high-fat
+Fatty Acid Synthesis,Acyl carrier protein,Malonyl-CoA,None,Malonyl-ACP,None,high-fat
+Fatty Acid Synthesis,Beta-ketoacyl-ACP synthase,Malonyl-ACP,Acetyl-CoA,Beta-ketoacyl-ACP,CoA,high-fat
+Fatty Acid Synthesis,Beta-ketoacyl-ACP reductase,Beta-ketoacyl-ACP,NADPH,Beta-hydroxyacyl-ACP,NADP+,high-fat
+Fatty Acid Synthesis,Enoyl-ACP reductase,Beta-hydroxyacyl-ACP,NADH,Enoyl-ACP,NAD+,high-fat
+Fatty Acid Synthesis,Acyl-ACP desaturase,Enoyl-ACP,O2,cis-Delta9-ACP,H2O,high-fat
+Fatty Acid Synthesis,Malonyl-CoA-ACP transacylase,Malonyl-CoA,Malonyl-ACP,None,None,high-fat
+Fatty Acid Synthesis,Acyl-CoA synthetase,Fatty acid,ATP,Acyl-CoA,AMP + PPi,high-fat
+Fatty Acid Synthesis,Acyl-CoA dehydrogenase,Acyl-CoA,FAD,trans-Delta2-Enoyl-CoA,FADH2,high-fat
+Fatty Acid Synthesis,Enoyl-CoA hydratase,trans-Delta2-Enoyl-CoA,H2O,3-Hydroxyacyl-CoA,None,high-fat
+Fatty Acid Synthesis,3-Hydroxyacyl-CoA dehydrogenase,3-Hydroxyacyl-CoA,NAD+,3-Ketoacyl-CoA,NADH + H+,high-fat
+Fatty Acid Synthesis,3-Ketoacyl-CoA thiolase,3-Ketoacyl-CoA,None,Acyl-CoA,Acetyl-CoA,high-fat
+Fatty Acid Elongation,Enoyl-CoA hydratase/isomerase,trans-2-Enoyl-CoA,H2O,3-Hydroxyacyl-CoA,None,high-fat
+Fatty Acid Elongation,3-Hydroxyacyl-CoA dehydrogenase,3-Hydroxyacyl-CoA,NAD+,3-Ketoacyl-CoA,NADH + H+,high-fat
+Fatty Acid Elongation,3-Ketoacyl-CoA reductase,3-Ketoacyl-CoA,NADPH,Acyl-CoA,NADP+,high-fat
+Fatty Acid Elongation,Enoyl-CoA reductase,trans-2-Enoyl-CoA,NADH,Saturated acyl-CoA,NAD+,high-fat
+Fatty Acid Elongation,3-Hydroxyacyl-CoA dehydratase,3-Hydroxyacyl-CoA,None,"trans-2,trans-4-Dienoyl-CoA",H2O,high-fat
+Fatty Acid Elongation,Enoyl-CoA isomerase,cis-Delta3-Enoyl-CoA,None,trans-Delta2-Enoyl-CoA,None,high-fat
+Fatty Acid Elongation,"3,2-trans-Enoyl-CoA isomerase",trans-Delta3-Enoyl-CoA,None,cis-Delta3-Enoyl-CoA,None,high-fat
+Fatty Acid Elongation,"2,4-Dienoyl-CoA reductase","trans-2,trans-4-Dienoyl-CoA",NADPH,trans-2-Enoyl-CoA,NADP+,high-fat
+Fatty Acid Elongation,Enoyl-CoA hydratase/isomerase,trans-2-Enoyl-CoA,H2O,3-Hydroxyacyl-CoA,None,high-fat
+Fatty Acid Elongation,3-Hydroxyacyl-CoA dehydrogenase,3-Hydroxyacyl-CoA,NAD+,3-Ketoacyl-CoA,NADH + H+,high-fat
+Fatty Acid Elongation,3-Ketoacyl-CoA reductase,3-Ketoacyl-CoA,NADPH,Acyl-CoA,NADP+,high-fat
+Fatty Acid Degradation,Acyl-CoA synthetase,Fatty acid,ATP,Acyl-CoA,AMP + PPi,low-fat
+Fatty Acid Degradation,Acyl-CoA dehydrogenase,Acyl-CoA,FAD,trans-Delta2-Enoyl-CoA,FADH2,low-fat
+Fatty Acid Degradation,Enoyl-CoA hydratase,trans-Delta2-Enoyl-CoA,H2O,3-Hydroxyacyl-CoA,None,low-fat
+Fatty Acid Degradation,3-Hydroxyacyl-CoA dehydrogenase,3-Hydroxyacyl-CoA,NAD+,3-Ketoacyl-CoA,NADH + H+,low-fat
+Fatty Acid Degradation,3-Ketoacyl-CoA thiolase,3-Ketoacyl-CoA,None,Acyl-CoA,Acetyl-CoA,low-fat
+Fatty Acid Degradation,Acyl-CoA acyltransferase,Acyl-CoA,None,Acyl-CoA,Acetyl-CoA,low-fat
+Fatty Acid Degradation,Acetyl-CoA acyltransferase,Acetyl-CoA,None,Acetyl-CoA,Acyl-CoA,low-fat
+Fatty Acid Degradation,FAD-dependent acyl-CoA oxidase,Acyl-CoA,FAD,trans-Delta2-Enoyl-CoA,FADH2,low-fat
+Fatty Acid Degradation,Carnitine palmitoyltransferase I,Acyl-CoA,None,Acylcarnitine,CoA,low-fat
+Fatty Acid Degradation,Carnitine palmitoyltransferase II,Acylcarnitine,None,Acyl-CoA,Carnitine,low-fat
+"Cutin, Suberine and Wax",Acyl-CoA synthetase,Fatty acid,ATP,Acyl-CoA,AMP + PPi,low-fat
+"Cutin, Suberine and Wax",Fatty acid desaturase,Fatty acid,O2,Unsaturated fatty acid,H2O2,low-fat
+"Cutin, Suberine and Wax",Fatty acid hydroxylase,Fatty acid,NAD(P)H,Hydroxylated fatty acid,NAD(P)+,low-fat
+"Cutin, Suberine and Wax",Fatty acyl-CoA reductase,Fatty acyl-CoA,NAD(P)H,Saturated fatty acyl-CoA,NAD(P)+,low-fat
+"Cutin, Suberine and Wax",Wax synthase,Fatty acyl-CoA,Acyl-CoA,Wax ester,CoA,low-fat
+"Cutin, Suberine and Wax",Esterase,Wax ester,H2O,Fatty alcohol,Fatty acid,low-fat
+"Cutin, Suberine and Wax",Fatty acyl-CoA reductase/hydroxylase,Fatty acyl-CoA,NAD(P)H,Hydroxylated fatty acyl-CoA,NAD(P)+,low-fat
+"Cutin, Suberine and Wax",Long-chain acyl-CoA synthetase,Long-chain fatty acid,ATP,Long-chain acyl-CoA,AMP + PPi,low-fat
+"Cutin, Suberine and Wax",Glycerol-3-phosphate acyltransferase,Glycerol-3-phosphate,Fatty acyl-CoA,Phosphatidic acid,CoA,low-fat
+"Cutin, Suberine and Wax",Acyl-CoA reductase,Fatty acyl-CoA,NAD(P)H,Alcohol,NAD(P)+,low-fat
+Steroid biosynthesis,Acetyl-CoA C-acetyltransferase,Acetyl-CoA,Acetyl-CoA,Acetoacetyl-CoA,CoA,low-cholesterol
+Steroid biosynthesis,HMG-CoA synthase,Acetoacetyl-CoA,Acetyl-CoA,HMG-CoA,CoA,low-cholesterol
+Steroid biosynthesis,HMG-CoA reductase,HMG-CoA,NADPH,Mevalonate,NADP+,low-cholesterol
+Steroid biosynthesis,Mevalonate kinase,Mevalonate,ATP,Mevalonate 5-phosphate,ADP + Pi,low-cholesterol
+Steroid biosynthesis,Phosphomevalonate kinase,Mevalonate 5-phosphate,ATP,Mevalonate 5-diphosphate,ADP + Pi,low-cholesterol
+Steroid biosynthesis,Diphosphomevalonate decarboxylase,Mevalonate 5-diphosphate,H2O,Isopentenyl diphosphate,CO2,low-cholesterol
+Steroid biosynthesis,Isopentenyl-diphosphate delta-isomerase,Isopentenyl diphosphate,None,Dimethylallyl diphosphate,None,low-cholesterol
+Steroid biosynthesis,Geranyltranstransferase,Dimethylallyl diphosphate,Isopentenyl diphosphate,Geranyl diphosphate,None,low-cholesterol
+Steroid biosynthesis,Farnesyltranstransferase,Geranyl diphosphate,Isopentenyl diphosphate,Farnesyl diphosphate,None,low-cholesterol
+Steroid biosynthesis,Squalene synthase,Farnesyl diphosphate,None,Squalene,PPi,low-cholesterol
+Primary bile acid biosynthesis,Cholesterol 7-alpha-hydroxylase,Cholesterol,NADPH,7-alpha-hydroxycholesterol,NADP+,low-fat
+Primary bile acid biosynthesis,3-beta-Hydroxy-Delta5-C27-steroid oxidoreductase,7-alpha-hydroxycholesterol,NADPH,3-beta-hydroxy-7-alpha-cholest-5-en-26-oate,NADP+,low-fat
+Primary bile acid biosynthesis,3-alpha-Hydroxy-Delta5-C27-steroid oxidoreductase,7-alpha-hydroxycholesterol,NADPH,"3-alpha,7-alpha-dihydroxy-5-beta-cholest-24-en-26-oate",NADP+,low-fat
+Primary bile acid biosynthesis,7-alpha-Hydroxysteroid dehydrogenase,7-alpha-hydroxycholesterol,NAD+,7-ketocholesterol,NADH,low-fat
+Primary bile acid biosynthesis,3-beta-Hydroxy-Delta5-C27-steroid dehydrogenase,3-beta-hydroxy-7-alpha-cholest-5-en-26-oate,NAD+,3-oxo-7-alpha-hydroxycholest-4-en-26-oate,NADH,low-fat
+Primary bile acid biosynthesis,3-alpha-Hydroxy-Delta5-C27-steroid dehydrogenase,"3-alpha,7-alpha-dihydroxy-5-beta-cholest-24-en-26-oate",NAD+,"3-oxo-7-alpha,12-alpha-dihydroxycholest-4-en-26-oate",NADH,low-fat
+Primary bile acid biosynthesis,3-oxo-5-beta-steroid 4-dehydrogenase,3-oxo-7-alpha-hydroxycholest-4-en-26-oate,NAD+,3-oxo-5-beta-cholanoate,NADH,low-fat
+Primary bile acid biosynthesis,3-oxo-5-beta-steroid Delta4-dehydrogenase,"3-oxo-7-alpha,12-alpha-dihydroxycholest-4-en-26-oate",NAD+,3-oxo-5-beta-cholanate,NADH,low-fat
+Primary bile acid biosynthesis,3-alpha-Hydroxysteroid 3-beta-glucosyltransferase,"3-alpha-hydroxy-7-alpha,12-alpha-dihydroxycholest-4-en-26-oate",UDP-glucose,"3-alpha,7-alpha,12-alpha-trihydroxy-5-beta-cholest-24-oyl-beta-D-glucopyranoside",UDP,low-fat
+Primary bile acid biosynthesis,Sterol 27-hydroxylase,Cholesterol,NADPH,27-hydroxycholesterol,NADP+,low-fat
+Secondary bile acid biosynthesis,7-alpha-Hydroxysteroid dehydrogenase,Cholic acid,NAD+,7-ketolithocholic acid,NADH,low-fat
+Secondary bile acid biosynthesis,3-alpha-Hydroxysteroid 3-beta-glucosyltransferase,"3-alpha,7-alpha,12-alpha-trihydroxy-5-beta-cholest-24-oyl-beta-D-glucopyranoside",UDP-glucose,"3-alpha,7-alpha,12-alpha-trihydroxy-5-beta-cholest-24-oyl-beta-D-glucopyranosyl-(1->4)-beta-D-glucopyranose",UDP,low-fat
+Secondary bile acid biosynthesis,Beta-glucuronidase,"3-alpha,7-alpha,12-alpha-trihydroxy-5-beta-cholest-24-oyl-beta-D-glucopyranosyl-(1->4)-beta-D-glucopyranose",H2O,"3-alpha,7-alpha,12-alpha-trihydroxy-5-beta-cholest-24-oyl-beta-D-glucopyranose",D-glucuronic acid,low-fat
+Secondary bile acid biosynthesis,"7-alpha,12-alpha-Dihydroxycholesterol 3-beta-glucuronosyltransferase","7-alpha,12-alpha-dihydroxycholesterol",UDP-glucuronic acid,"7-alpha,12-alpha-dihydroxycholesterol 3-beta-D-glucuronide",UDP,low-fat
+Secondary bile acid biosynthesis,"3-alpha,7-alpha-Dihydroxy-12-oxo-5-beta-cholanoate 3-alpha-glucuronosyltransferase","3-alpha,7-alpha-dihydroxy-12-oxo-5-beta-cholanoic acid",UDP-glucuronic acid,"3-alpha,7-alpha-dihydroxy-12-oxo-5-beta-cholanoic acid 3-alpha-D-glucuronide",UDP,low-fat
+Secondary bile acid biosynthesis,3-beta-Hydroxy-Delta5-C27-steroid oxidoreductase,"3-beta-hydroxy-7-alpha,12-alpha-dihydroxy-5-beta-cholest-24-en-26-oate",NADPH,"3-beta,7-alpha,12-alpha-trihydroxy-5-beta-cholest-24-enoyl-CoA",NADP+,low-fat
+Secondary bile acid biosynthesis,7-alpha-Hydroxy-3-oxochol-4-en-24-oate 3-beta-glucuronosyltransferase,7-alpha-hydroxy-3-oxochol-4-en-24-oic acid,UDP-glucuronic acid,7-alpha-hydroxy-3-oxochol-4-en-24-oic acid 3-beta-D-glucuronide,UDP,low-fat
+Glycerolipid metabolism,Glycerol-3-phosphate acyltransferase,Glycerol-3-phosphate,Fatty acid,Lysophosphatidic acid,CoA,low-fat
+Glycerolipid metabolism,1-Acylglycerol-3-phosphate O-acyltransferase,Lysophosphatidic acid,Fatty acid,Phosphatidic acid,CoA,low-fat
+Glycerolipid metabolism,Phosphatidate cytidylyltransferase,CDP-DAG,None,Phosphatidylglycerol,CMP,low-fat
+Glycerolipid metabolism,Phosphatidate phosphatase,Phosphatidate,H2O,Diacylglycerol,Pi,low-fat
+Glycerolipid metabolism,Diacylglycerol O-acyltransferase,Diacylglycerol,Fatty acid,Triacylglycerol,CoA,low-fat
+Glycerolipid metabolism,Monoacylglycerol lipase,Monoacylglycerol,H2O,Glycerol,Fatty acid,low-fat
+Glycerolipid metabolism,Acyl-CoA:cholesterol acyltransferase,Acyl-CoA,Cholesterol,Cholesteryl ester,CoA,low-fat
+Ether lipid metabolism,Alkylglycerone phosphate synthase,Glycerone phosphate,Fatty alcohol,Alkylglycerone phosphate,CoA,Macronutrient balance
+Ether lipid metabolism,Alkylglycerone phosphate phosphatase,Alkylglycerone phosphate,H2O,Alkylglycerone,Pi,Macronutrient balance
+Ether lipid metabolism,Glycerol-3-phosphate O-acyltransferase,Glycerol-3-phosphate,Fatty acid,Lysophosphatidic acid,CoA,Macronutrient balance
+Ether lipid metabolism,Glycerol-3-phosphate dehydrogenase,Glycerol-3-phosphate,NAD+,Dihydroxyacetone phosphate,NADH,Macronutrient balance
+Ether lipid metabolism,Alkylglycerol monooxygenase,Alkylglycerol,O2,Alkylglycerol ether,H2O2,Macronutrient balance
+Ether lipid metabolism,Alkylglycerol kinase,Alkylglycerol,ATP,Alkylglycerol phosphate,ADP,Macronutrient balance
+Ether lipid metabolism,Acylglycerol kinase,Monoacylglycerol,ATP,"1,2-Diacylglycerol",ADP,Macronutrient balance
+Ether lipid metabolism,Alkylglycerol-3-phosphate synthase,Alkylglycerol-3-phosphate,CTP,Alkylglycerol diphosphate,CMP,Macronutrient balance
+Ether lipid metabolism,Alkylglycerol-3-phosphate phosphatase,Alkylglycerol-3-phosphate,H2O,Alkylglycerol phosphate,Pi,Macronutrient balance
+Ether lipid metabolism,Acylglycerol-3-phosphate O-acyltransferase,Acylglycerol-3-phosphate,Fatty acid,"1,2-Diacylglycerol-3-phosphate",CoA,Macronutrient balance
+Sphingolipid metabolism,Ceramide synthase,Sphinganine,Fatty acyl-CoA,Ceramide,CoA,Omega-3 fatty acids
+Sphingolipid metabolism,Sphingosine kinase,Sphingosine,ATP,Sphingosine-1-phosphate,ADP,Omega-3 fatty acids
+Sphingolipid metabolism,Ceramide glucosyltransferase,Ceramide,UDP-glucose,Glucosylceramide,UDP,Omega-3 fatty acids
+Sphingolipid metabolism,Ceramide galactosyltransferase,Ceramide,UDP-galactose,Galactosylceramide,UDP,Omega-3 fatty acids
+Sphingolipid metabolism,Sphingomyelin synthase,Ceramide,Phosphatidylcholine,Sphingomyelin,Diacylglycerol,Omega-3 fatty acids
+Sphingolipid metabolism,Sphingomyelinase,Sphingomyelin,H2O,Ceramide,Phosphocholine,Omega-3 fatty acids
+Sphingolipid metabolism,Ceramidase,Ceramide,H2O,Sphingosine,Fatty acid,Omega-3 fatty acids
+Sphingolipid metabolism,Sphingosine-1-phosphate lyase,Sphingosine-1-phosphate,H2O,Ethanolamine phosphate,Hexadecenal,Omega-3 fatty acids
+Sphingolipid metabolism,Sphingosine-1-phosphate phosphatase,Sphingosine-1-phosphate,H2O,Sphingosine,Pi,Omega-3 fatty acids
+Sphingolipid metabolism,Ceramide kinase,Ceramide,ATP,Ceramide-1-phosphate,ADP,Omega-3 fatty acids
+Arachidonic acid metabolism,Phospholipase A2,Phospholipid,H2O,Arachidonic acid,Lysophospholipid,Omega-3 fatty acids
+Arachidonic acid metabolism,Cyclooxygenase (COX),Arachidonic acid,O2,Prostaglandin G2,H2O,Omega-3 fatty acids
+Arachidonic acid metabolism,Prostaglandin synthase,Prostaglandin H2,"NADH, H+",Prostaglandin G2,NAD+,Omega-3 fatty acids
+Arachidonic acid metabolism,Thromboxane synthase,Prostaglandin H2,"NAD(P)H, H+",Thromboxane A2,NAD(P)+,Omega-3 fatty acids
+Arachidonic acid metabolism,Prostacyclin synthase,Prostaglandin H2,"NAD(P)H, H+",Prostacyclin,NAD(P)+,Omega-3 fatty acids
+Arachidonic acid metabolism,Leukotriene A4 hydrolase,Leukotriene A4,H2O,Leukotriene B4,None,Omega-3 fatty acids
+Arachidonic acid metabolism,Leukotriene C4 synthase,Leukotriene A4,Glutathione,Leukotriene C4,Glutathione,Omega-3 fatty acids
+Arachidonic acid metabolism,Leukotriene A4 epoxide hydrolase,Leukotriene A4 epoxide,H2O,Leukotriene B4,None,Omega-3 fatty acids
+Arachidonic acid metabolism,5-Lipoxygenase,Arachidonic acid,O2,5-Hydroperoxyeicosatetraenoic acid (5-HPETE),None,Omega-3 fatty acids
+Arachidonic acid metabolism,Leukotriene A4 hydrolase,Leukotriene A4,H2O,Leukotriene B4,None,Omega-3 fatty acids
+Linoleic acid metabolism,12-Lipoxygenase,Linoleic acid,O2,12-Hydroperoxyeicosatetraenoic acid (12-HPETE),None,Increase your intake of antioxidants
+Linoleic acid metabolism,13-Lipoxygenase,Linoleic acid,O2,13-Hydroperoxyoctadecadienoic acid (13-HPODE),None,Increase your intake of antioxidants
+Linoleic acid metabolism,Cytochrome P450 family 4 subfamily A,Linoleic acid,"NADPH, O2","12,13-Epoxyoctadecenoic acid (12,13-EpOME)","NADP+, H2O",Increase your intake of antioxidants
+Linoleic acid metabolism,Cytochrome P450 family 4 subfamily V,Linoleic acid,"NADPH, O2",20-Hydroxyeicosatetraenoic acid (20-HETE),"NADP+, H2O",Increase your intake of antioxidants
+Linoleic acid metabolism,Cytochrome P450 family 2 subfamily J,Linoleic acid,"NADPH, O2","9,10-Epoxyoctadecenoic acid (9,10-EpOME)","NADP+, H2O",Increase your intake of antioxidants
+Linoleic acid metabolism,Cytochrome P450 family 1 subfamily A,Linoleic acid,"NADPH, O2","7,8-Epoxyoctadecenoic acid (7,8-EpOME)","NADP+, H2O",Increase your intake of antioxidants
+Linoleic acid metabolism,Linoleate 13S-lipoxygenase,Linoleic acid,O2,"9,10,13-Trihydroxyoctadecenoic acid (9,10,13-THOME)",None,Increase your intake of antioxidants
+Linoleic acid metabolism,Linoleate 9S-lipoxygenase,Linoleic acid,O2,"9,10,12-Trihydroxyoctadecenoic acid (9,10,12-THOME)",None,Increase your intake of antioxidants
+Linoleic acid metabolism,Acyl-CoA thioesterase 2,Linoleoyl-CoA,H2O,Linoleic acid,CoA,Increase your intake of antioxidants
+Linoleic acid metabolism,Acyl-CoA thioesterase 3,Linoleoyl-CoA,H2O,Linoleic acid,CoA,Increase your intake of antioxidants
